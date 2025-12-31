@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Secciones */
+section {
+    padding: 2rem 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Títulos */
+h1, h2 {
+    margin-bottom: 1rem;
+}
+
+/* Lista de habilidades */
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #f4f4f4;
+    margin: 0.5rem 0;
+    padding: 0.7rem;
+    border-left: 4px solid #4CAF50;
+}
+
+/* Contacto */
+.contact a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
