@@ -62,3 +62,40 @@ footer {
     padding: 1rem 0;
     margin-top: 2rem;
 }
+
+
+
+/* estilo para los certificados  */
+/* Contenedor de la imagen con efecto zoom */
+.cert-image-container {
+    height: 450px; /* Ajusta según el tamaño de tus fotos */
+    overflow: hidden;
+    position: relative;
+}
+
+.cert-image-container img {
+    height: 100%;
+    object-fit: cover; /* Mantiene la proporción sin deformar */
+    transition: transform 5s ease-in-out;
+}
+
+/* El zoom ocurre mientras la imagen está activa */
+.carousel-item.active .cert-image-container img {
+    transform: scale(1.15);
+}
+
+/* Degradado elegante para el texto */
+.custom-caption {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    padding: 40px 20px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+/* Suavizar la transición entre fotos */
+.carousel-fade .carousel-item {
+    transition-duration: 0.8s;
+}
